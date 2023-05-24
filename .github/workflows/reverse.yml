@@ -18,4 +18,4 @@ jobs:
             install: sunpy-dev-env.yml
             installation_command: pip install --no-deps --no-build-isolation .
             exclude: "fisspy"
-            run: apt-get update && apt install build-essential -y
+            run: apt-get update && apt install build-essential -y && apt-get install -y pkg-config
