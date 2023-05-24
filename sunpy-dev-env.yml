@@ -16,7 +16,7 @@ dependencies:
   - packaging
   - pandas
   - parfive
-  - python
+  - python=3.9
   - python_abi
   - python-dateutil
   - reproject
@@ -38,7 +38,7 @@ dependencies:
   # Testing
   - hvpy
   - hypothesis
-  - pytest=3.9
+  - pytest
   - pytest-arraydiff
   - pytest-astropy
   - pytest-cov
