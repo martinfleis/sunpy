@@ -15,6 +15,7 @@ jobs:
       - uses: martinfleis/reverse-dependency-testing@main
         with:
             package_name: "sunpy"
-            install: "sunpy,setuptools-scm,extension-helpers,git,pytest-arraydiff,pytest-doctestplus" # use this to install dependencies - need to support yml
+            install: sunpy-dev.env.yml
             installation_command: pip install --no-deps --no-build-isolation .
             exclude: "fisspy"
+            run: apt-get update && apt install build-essential -y
