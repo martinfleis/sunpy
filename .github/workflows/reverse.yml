@@ -19,3 +19,4 @@ jobs:
             env: sunpy-dev-env.yml
             installation_command: pip install --no-deps --no-build-isolation .
             exclude: "fisspy"
+            python_version: 3.9
