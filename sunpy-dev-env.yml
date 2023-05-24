@@ -38,7 +38,7 @@ dependencies:
   # Testing
   - hvpy
   - hypothesis
-  - pytest
+  - pytest=3.9
   - pytest-arraydiff
   - pytest-astropy
   - pytest-cov
