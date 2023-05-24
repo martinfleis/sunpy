@@ -14,3 +14,4 @@ jobs:
             package_name: "sunpy"
             install: "sunpy" # use this to install dependencies - need to support yml
             installation_command: pip install --no-deps --no-build-isolation .
+            exclude: "fisspy"
